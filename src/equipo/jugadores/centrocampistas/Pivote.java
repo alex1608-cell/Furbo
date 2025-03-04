@@ -27,3 +27,6 @@ public class Pivote extends Centrocampista {
 	public void mostrarDatos() {
 		System.out.println(this.toString());
 }
+	
+}
+

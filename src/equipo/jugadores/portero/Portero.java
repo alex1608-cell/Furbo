@@ -29,4 +29,5 @@ public class Portero extends Jugador {
 	@Override
 	public void mostrarDatos() {
 		System.out.println(this.toString());
+	}
 }
