@@ -1,5 +1,4 @@
 package equipo.jugadores.delanteros;
-
 public class DelanteroCentro extends Delantero {
 	private int golesDePenalti;
 
@@ -15,5 +14,4 @@ public class DelanteroCentro extends Delantero {
 	public void setGolesDePenalti(int golesDePenalti) {
 		this.golesDePenalti = golesDePenalti;
 	}
-
 }

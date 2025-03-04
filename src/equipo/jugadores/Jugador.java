@@ -1,11 +1,6 @@
 package equipo.jugadores;
 
 public class Jugador {
-<<<<<<< Updated upstream
-	String nombre;
-	int dorsal;
-	String equipo;
-=======
 	private String nombre;
 	private int dorsal;
 	private String equipo;
@@ -14,7 +9,6 @@ public class Jugador {
 		this.setNombre(nombre);
 		this.setDorsal(dorsal);
 		this.setEquipo(equipo);
-		;
 	}
 
 	public String getNombre() {
@@ -40,6 +34,4 @@ public class Jugador {
 	public void setEquipo(String equipo) {
 		this.equipo = equipo;
 	}
-
->>>>>>> Stashed changes
 }
