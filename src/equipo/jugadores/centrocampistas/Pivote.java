@@ -17,9 +17,13 @@ public class Pivote extends Centrocampista {
 	}
 
 	@Override
-	public void monstrarDatos() {
+	public void monstrarDatos(String nombre, int dorsal, String equipo) {
 		// TODO Auto-generated method stub
 		
 	}
+
+	
+
+	
 
 }

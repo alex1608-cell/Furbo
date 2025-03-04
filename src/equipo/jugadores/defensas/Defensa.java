@@ -20,4 +20,9 @@ public abstract class Defensa extends Jugador {
 		this.disputasRealizadas = disputasRealizadas;
 	}
 
+	public void monstrarDatos() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

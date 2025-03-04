@@ -19,4 +19,9 @@ public  abstract class Centrocampista extends Jugador {
 		this.pasesCompletados = pasesCompletados;
 	}
 
+	public void monstrarDatos() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

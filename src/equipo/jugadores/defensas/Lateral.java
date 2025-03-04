@@ -14,12 +14,13 @@ public class Lateral extends Defensa{
 	public void setPuesto(Puesto puesto) {
 		this.puesto = puesto;
 	}
-	
 	@Override
-	public void monstrarDatos() {
-		
+	public void monstrarDatos(String nombre, int dorsal, String equipo) {
+		// TODO Auto-generated method stub
 		
 	}
+	
+	
 	
 
 }
