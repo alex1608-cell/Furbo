@@ -15,8 +15,6 @@ public class Mediapunta extends Centrocampista {
 	public void setAsistencias(int asistencias) {
 		this.asistencias = asistencias;
 	}
-
-	
 	
 	@Override
 	public String toString() {
@@ -30,5 +28,4 @@ public class Mediapunta extends Centrocampista {
 		System.out.println(this.toString());
 
 	}
-
 }

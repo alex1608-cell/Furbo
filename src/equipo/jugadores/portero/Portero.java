@@ -20,8 +20,6 @@ public class Portero extends Jugador {
 		this.paradas = paradas;
 	}
 
-	
-
 	@Override
 	public String toString() {
 		return "Portero [Paradas=" + this.paradas + ", Nombre=" + this.getNombre() + ", Dorsal=" + this.getDorsal()
@@ -31,6 +29,4 @@ public class Portero extends Jugador {
 	@Override
 	public void mostrarDatos() {
 		System.out.println(this.toString());
-	}
-
 }

@@ -18,10 +18,7 @@ public abstract class Defensa extends Jugador {
 
 	public void setDisputasRealizadas(int disputasRealizadas) {
 		this.disputasRealizadas = disputasRealizadas;
-	}
-
-	
-	
+	}	
 	@Override
 	public String toString() {
 		return "Defensa [Disputas Realizadas=" + this.disputasRealizadas + ", Nombre=" + this.getNombre() + ", Dorsal="
@@ -32,7 +29,4 @@ public abstract class Defensa extends Jugador {
 	public void mostrarDatos() {
 		System.out.println(this.toString());
 	}
-
-	
-	
 }

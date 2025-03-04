@@ -15,8 +15,6 @@ public class Lateral extends Defensa{
 		this.puesto = puesto;
 	}
 	
-	
-	
 	@Override
 	public String toString() {
 		return "Lateral [Puesto=" + this.puesto + ", Disputas Realizadas=" + this.getDisputasRealizadas() + ", Nombre="
@@ -25,8 +23,6 @@ public class Lateral extends Defensa{
 	@Override
 	public void mostrarDatos() {
 		System.out.println(this.toString());
-		
-	}
-	
+	}	
 
 }

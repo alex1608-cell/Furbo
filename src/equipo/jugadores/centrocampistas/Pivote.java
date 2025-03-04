@@ -16,8 +16,6 @@ public class Pivote extends Centrocampista {
 		this.intercepciones = intercepciones;
 	}
 
-	
-
 	@Override
 	public String toString() {
 		return "Pivote [Intercepciones=" + this.intercepciones + ", Pases Completados=" + this.getPasesCompletados()
@@ -28,6 +26,4 @@ public class Pivote extends Centrocampista {
 	@Override
 	public void mostrarDatos() {
 		System.out.println(this.toString());
-	}
-
 }

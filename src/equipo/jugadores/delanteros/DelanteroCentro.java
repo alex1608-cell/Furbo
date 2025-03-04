@@ -27,5 +27,4 @@ public class DelanteroCentro extends Delantero {
 	public void mostrarDatos() {
 		System.out.println(this.toString());
 	}
-
 }

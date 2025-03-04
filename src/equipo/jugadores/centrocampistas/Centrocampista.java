@@ -19,8 +19,6 @@ public abstract class Centrocampista extends Jugador {
 		this.pasesCompletados = pasesCompletados;
 	}
 
-	
-
 	@Override
 	public String toString() {
 		return "Centrocampista [Pases Completados=" + this.pasesCompletados + ", Nombre=" + this.getNombre()
@@ -29,7 +27,5 @@ public abstract class Centrocampista extends Jugador {
 
 	public void mostrarDatos() {
 		System.out.println(this.toString());
-
-	}
 
 }

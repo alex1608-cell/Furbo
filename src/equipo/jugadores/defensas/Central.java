@@ -31,5 +31,4 @@ public class Central extends Defensa {
 	public void mostrarDatos() {
 		System.out.println(this.toString());
 	}
-
 }
