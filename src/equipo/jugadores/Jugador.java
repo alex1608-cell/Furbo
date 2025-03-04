@@ -34,4 +34,16 @@ public class Jugador {
 	public void setEquipo(String equipo) {
 		this.equipo = equipo;
 	}
+<<<<<<< Updated upstream
+=======
+
+	public abstract void monstrarDatos(String nombre, int dorsal, String equipo);
+
+	@Override
+	public String toString() {
+		return "Jugador [nombre=" + nombre + ", dorsal=" + dorsal + ", equipo=" + equipo + "]";
+	}
+	
+	
+>>>>>>> Stashed changes
 }
