@@ -45,5 +45,8 @@ public class Jugador {
 	}
 	
 	
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 }
