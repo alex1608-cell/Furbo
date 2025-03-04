@@ -2,7 +2,7 @@ package equipo.jugadores.centrocampistas;
 
 import equipo.jugadores.Jugador;
 
-public class Centrocampista extends Jugador {
+public  abstract class Centrocampista extends Jugador {
 	private int pasesCompletados;
 
 	public Centrocampista(String nombre, int dorsal, String equipo, int pasesCompletados) {

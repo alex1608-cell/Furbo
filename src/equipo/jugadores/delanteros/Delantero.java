@@ -2,7 +2,7 @@ package equipo.jugadores.delanteros;
 
 import equipo.jugadores.Jugador;
 
-public class Delantero extends Jugador {
+public abstract class Delantero extends Jugador {
 	private int goles;
 
 	public Delantero(String nombre, int dorsal, String equipo, int goles) {

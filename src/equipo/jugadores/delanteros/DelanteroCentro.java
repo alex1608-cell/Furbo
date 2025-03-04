@@ -14,4 +14,10 @@ public class DelanteroCentro extends Delantero {
 	public void setGolesDePenalti(int golesDePenalti) {
 		this.golesDePenalti = golesDePenalti;
 	}
+
+	@Override
+	public void monstrarDatos() {
+		// TODO Auto-generated method stub
+		
+	}
 }

@@ -15,4 +15,10 @@ public class Mediapunta extends Centrocampista {
 	public void setAsistencias(int asistencias) {
 		this.asistencias = asistencias;
 	}
+
+	@Override
+	public void monstrarDatos() {
+		// TODO Auto-generated method stub
+		
+	}
 }

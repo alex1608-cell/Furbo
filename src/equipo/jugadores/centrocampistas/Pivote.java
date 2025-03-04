@@ -16,4 +16,10 @@ public class Pivote extends Centrocampista {
 		this.intercepciones = intercepciones;
 	}
 
+	@Override
+	public void monstrarDatos() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

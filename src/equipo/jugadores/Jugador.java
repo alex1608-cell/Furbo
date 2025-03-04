@@ -1,6 +1,6 @@
 package equipo.jugadores;
 
-public class Jugador {
+public abstract class Jugador {
 	private String nombre;
 	private int dorsal;
 	private String equipo;
@@ -34,19 +34,10 @@ public class Jugador {
 	public void setEquipo(String equipo) {
 		this.equipo = equipo;
 	}
-<<<<<<< Updated upstream
-=======
-
 	public abstract void monstrarDatos(String nombre, int dorsal, String equipo);
 
 	@Override
 	public String toString() {
 		return "Jugador [nombre=" + nombre + ", dorsal=" + dorsal + ", equipo=" + equipo + "]";
 	}
-	
-	
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 }
