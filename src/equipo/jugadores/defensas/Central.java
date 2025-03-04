@@ -1,5 +1,5 @@
 package equipo.jugadores.defensas;
 
-public class Central {
+public class Central extends Jugador {
 
 }
