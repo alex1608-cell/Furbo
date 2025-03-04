@@ -17,4 +17,19 @@ public abstract class Delantero extends Jugador {
 	public void setGoles(int goles) {
 		this.goles = goles;
 	}
+
+
+	
+	
+	@Override
+	public String toString() {
+		return "Delantero [Goles=" + this.goles + ", Nombre=" + this.getNombre() + ", Dorsal=" + this.getDorsal()
+				+ ", Equipo=" + this.getEquipo() + "]";
+	}
+
+	@Override
+	public void mostrarDatos() {
+		System.out.println(this.toString());
+	}
+	
 }

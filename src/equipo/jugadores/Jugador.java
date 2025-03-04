@@ -34,10 +34,11 @@ public abstract class Jugador {
 	public void setEquipo(String equipo) {
 		this.equipo = equipo;
 	}
-	public abstract void monstrarDatos(String nombre, int dorsal, String equipo);
 
 	@Override
 	public String toString() {
-		return "Jugador [nombre=" + nombre + ", dorsal=" + dorsal + ", equipo=" + equipo + "]";
+		return "Jugador [nombre=" + this.getNombre() + ", dorsal=" + this.getDorsal() + ", equipo=" + this.getEquipo() + "]";
 	}
+	
+	public abstract void mostrarDatos();
 }

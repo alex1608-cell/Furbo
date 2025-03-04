@@ -2,14 +2,14 @@ package equipo.jugadores.portero;
 
 import equipo.jugadores.Jugador;
 
-public class Portero extends Jugador{
+public class Portero extends Jugador {
 
 	private int paradas;
-	
+
 	public Portero(String nombre, int dorsal, String equipo) {
 		super(nombre, dorsal, equipo);
 		setParadas(paradas);
-		
+
 	}
 
 	public int getParadas() {
@@ -20,10 +20,17 @@ public class Portero extends Jugador{
 		this.paradas = paradas;
 	}
 
+	
+
 	@Override
-	public void monstrarDatos() {
-		// TODO Auto-generated method stub
-		
+	public String toString() {
+		return "Portero [Paradas=" + this.paradas + ", Nombre=" + this.getNombre() + ", Dorsal=" + this.getDorsal()
+				+ ", Equipo=" + this.getEquipo() + "]";
+	}
+
+	@Override
+	public void mostrarDatos() {
+		System.out.println(this.toString());
 	}
 
 }
