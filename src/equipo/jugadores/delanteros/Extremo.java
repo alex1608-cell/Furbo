@@ -15,4 +15,10 @@ public class Extremo extends Delantero {
 	public void setPuesto(PuestoExtremo puesto) {
 		this.puesto = puesto;
 	}
+
+	@Override
+	public void monstrarDatos() {
+		// TODO Auto-generated method stub
+		
+	}
 }

@@ -15,5 +15,11 @@ public class Lateral extends Defensa{
 		this.puesto = puesto;
 	}
 	
+	@Override
+	public void monstrarDatos() {
+		
+		
+	}
+	
 
 }

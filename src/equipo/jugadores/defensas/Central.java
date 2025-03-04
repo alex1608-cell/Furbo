@@ -19,4 +19,10 @@ public class Central extends Defensa {
 		return entradas;
 	}
 
+	@Override
+	public void monstrarDatos() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

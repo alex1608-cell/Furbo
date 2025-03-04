@@ -20,4 +20,10 @@ public class Portero extends Jugador{
 		this.paradas = paradas;
 	}
 
+	@Override
+	public void monstrarDatos() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
