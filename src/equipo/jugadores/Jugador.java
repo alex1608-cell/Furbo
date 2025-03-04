@@ -1,18 +1,14 @@
 package equipo.jugadores;
 
 public class Jugador {
-
 	private String nombre;
 	private int dorsal;
 	private String equipo;
-	
+
 	public Jugador(String nombre, int dorsal, String equipo) {
-		
-		this.dorsal = dorsal;
-		this.equipo = equipo;
-		this.nombre = nombre;
-		
-		
+		this.setNombre(nombre);
+		this.setDorsal(dorsal);
+		this.setEquipo(equipo);
 	}
 
 	public String getNombre() {
@@ -38,5 +34,4 @@ public class Jugador {
 	public void setEquipo(String equipo) {
 		this.equipo = equipo;
 	}
-	
 }
