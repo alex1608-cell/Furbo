@@ -1,9 +1,6 @@
 package equipo.jugadores;
 
 public class Jugador {
-<<<<<<< Updated upstream
-
-=======
 	private String nombre;
 	private int dorsal;
 	private String equipo;
@@ -41,6 +38,5 @@ public class Jugador {
 		this.equipo = equipo;
 	}
 	
-	
->>>>>>> Stashed changes
+
 }
