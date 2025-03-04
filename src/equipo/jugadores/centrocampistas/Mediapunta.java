@@ -3,7 +3,7 @@ package equipo.jugadores.centrocampistas;
 public class Mediapunta extends Centrocampista {
 	private int asistencias;
 
-	public Mediapunta(String nombre, int dorsal, String equipo, int pasesCompletados,  int asistencias) {
+	public Mediapunta(String nombre, int dorsal, String equipo, int pasesCompletados, int asistencias) {
 		super(nombre, dorsal, equipo, pasesCompletados);
 		this.setAsistencias(asistencias);
 	}
@@ -15,12 +15,17 @@ public class Mediapunta extends Centrocampista {
 	public void setAsistencias(int asistencias) {
 		this.asistencias = asistencias;
 	}
-
+	
 	@Override
-	public void monstrarDatos(String nombre, int dorsal, String equipo) {
-		// TODO Auto-generated method stub
-		
+	public String toString() {
+		return "Mediapunta [Asistencias=" + this.asistencias + ", Pases Completados=" + this.getPasesCompletados()
+				+ ", Nombre=" + this.getNombre() + ", Dorsal=" + this.getDorsal() + ", Equipo=" + this.getEquipo()
+				+ "]";
 	}
 
+	@Override
+	public void mostrarDatos() {
+		System.out.println(this.toString());
 
+	}
 }

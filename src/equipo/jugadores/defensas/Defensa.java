@@ -18,11 +18,15 @@ public abstract class Defensa extends Jugador {
 
 	public void setDisputasRealizadas(int disputasRealizadas) {
 		this.disputasRealizadas = disputasRealizadas;
+	}	
+	@Override
+	public String toString() {
+		return "Defensa [Disputas Realizadas=" + this.disputasRealizadas + ", Nombre=" + this.getNombre() + ", Dorsal="
+				+ this.getDorsal() + ", Equipo=" + this.getEquipo() + "]";
 	}
 
-	public void monstrarDatos() {
-		// TODO Auto-generated method stub
-		
+	@Override
+	public void mostrarDatos() {
+		System.out.println(this.toString());
 	}
-
 }

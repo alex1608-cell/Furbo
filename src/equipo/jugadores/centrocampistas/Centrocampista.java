@@ -2,7 +2,7 @@ package equipo.jugadores.centrocampistas;
 
 import equipo.jugadores.Jugador;
 
-public  abstract class Centrocampista extends Jugador {
+public abstract class Centrocampista extends Jugador {
 	private int pasesCompletados;
 
 	public Centrocampista(String nombre, int dorsal, String equipo, int pasesCompletados) {
@@ -19,9 +19,13 @@ public  abstract class Centrocampista extends Jugador {
 		this.pasesCompletados = pasesCompletados;
 	}
 
-	public void monstrarDatos() {
-		// TODO Auto-generated method stub
-		
+	@Override
+	public String toString() {
+		return "Centrocampista [Pases Completados=" + this.pasesCompletados + ", Nombre=" + this.getNombre()
+				+ ", Dorsal=" + this.getDorsal() + ", Equipo=" + this.getEquipo() + "]";
 	}
+
+	public void mostrarDatos() {
+		System.out.println(this.toString());
 
 }

@@ -1,4 +1,5 @@
 package equipo.jugadores.delanteros;
+
 public class DelanteroCentro extends Delantero {
 	private int golesDePenalti;
 
@@ -15,11 +16,15 @@ public class DelanteroCentro extends Delantero {
 		this.golesDePenalti = golesDePenalti;
 	}
 
+	
+
 	@Override
-	public void monstrarDatos(String nombre, int dorsal, String equipo) {
-		// TODO Auto-generated method stub
-		
+	public String toString() {
+		return "Delantero Centro [golesDePenalti=" + this.golesDePenalti + ", Goles=" + this.getGoles() + ", Nombre="
+				+ this.getNombre() + ", Dorsal=" + this.getDorsal() + ", Equipo=" + this.getEquipo() + "]";
 	}
 
-	
+	public void mostrarDatos() {
+		System.out.println(this.toString());
+	}
 }

@@ -17,10 +17,13 @@ public class Extremo extends Delantero {
 	}
 
 	@Override
-	public void monstrarDatos(String nombre, int dorsal, String equipo) {
-		// TODO Auto-generated method stub
-		
+	public String toString() {
+		return "Extremo [Puesto=" + this.puesto + ", Goles=" + this.getGoles() + ", Nombre=" + this.getNombre()
+				+ ", Dorsal=" + this.getDorsal() + ", Equipo=" + this.getEquipo() + "]";
 	}
 
-	
+	@Override
+	public void mostrarDatos() {
+		System.out.println(this.toString());
+	}
 }
