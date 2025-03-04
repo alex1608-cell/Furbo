@@ -15,5 +15,21 @@ public class Lateral extends Defensa{
 		this.puesto = puesto;
 	}
 	
+<<<<<<< Updated upstream
+=======
+	public String toString() {
+		return "Lateral [nombre =" + this.getNombre() + " , dorsal=" + this.getDorsal();
+	}
+	
+	@Override
+	public void monstrarDatos(String nombre, int dorsal, String equipo) {
+		
+		System.out.println();
+		
+	}
+	
+	
+	
+>>>>>>> Stashed changes
 
 }
